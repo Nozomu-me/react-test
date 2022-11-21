@@ -1,0 +1,26 @@
+.posts {
+    padding-top: 200px;
+    padding-bottom: 120px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 320px);
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.post {
+    height: 200px;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.post .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.post .body {
+    color: gray;
+}
